@@ -1,0 +1,32 @@
+.noquotes {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+  
+/* Message */
+.message {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--charlestone-green);
+}
+
+.link {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--teal);
+    background-color: var(--teal);
+    color: var(--white);
+    cursor: pointer;
+}
+  
+.link:hover,
+.link:active {
+    background-color: var(--light-sea-green);
+    border-color: var(--light-sea-green);
+}
+  

@@ -1,0 +1,23 @@
+.list {
+    list-style: none;
+}
+  
+.sorting {
+    padding-bottom: var(--spacing2);
+    margin-bottom: var(--spacing4);
+    border-bottom: 3px solid var(--jet-stream);
+}
+  
+.sorting button {
+    font: inherit;
+    padding: var(--spacing) 1.5rem;
+    border: 1px solid var(--teal);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--teal);
+    cursor: pointer;
+}
+  
+.sorting button:hover {
+    background-color: var(--diamond);
+}

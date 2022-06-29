@@ -1,0 +1,22 @@
+.quote {
+    width: 90%;
+    max-width: 40rem;
+    padding: var(--spacing3);
+    margin: var(--spacing3) auto;
+    border-radius: 6px;
+    background-color: var(--dark-gunmetal);
+    color: var(--white);
+  }
+  
+  /* Text */
+  .text {
+    font-size: 2.5rem;
+  }
+  
+  /* Author */
+  .author {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: right;
+    color: var(--crystal);
+  }

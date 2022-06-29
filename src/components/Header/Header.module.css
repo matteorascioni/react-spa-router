@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  padding: 0 10%;
+  background-color: var(--teal);
+}
+
+/* Logo */
+.logo {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+/* List */
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* ListItem */
+.listItem {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+/* Link */
+.link {
+  text-decoration: none;
+  color: var(--medium-sky-blue);
+}
+
+.link:hover,
+.link:active,
+.link.active {
+  color: var(--bubbles);
+}

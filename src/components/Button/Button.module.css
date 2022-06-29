@@ -1,0 +1,32 @@
+.container {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--teal);
+    background-color: var(--teal);
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  .container:hover,
+  .container:active {
+    background-color: var(--light-sea-green);
+    border-color: var(--light-sea-green);
+  }
+  
+  .containerFlat {
+      font: inherit;
+      border: none;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      background-color: var(--light-sea-green);
+      color: var(--white);
+      cursor: pointer;
+  }
+  
+  .containerFlat:hover,
+  .containerFlat:active {
+    background-color: var(--teal);
+    color: var(--white);
+  }
