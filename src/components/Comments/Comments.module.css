@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+}
+
+/* Headline */
+.headline {
+    margin-bottom: var(--spacing3);
+}
+
+/* Button */
+.button {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing3);
+}

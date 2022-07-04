@@ -6,7 +6,8 @@ const Layout = ({children}) => {
     return (
         <>
             <Header />
-            <main>{children}</main>  
+            {/* Remove this momentary style attribute once we'll have the content inside the pages */}
+            <main style={{ margin: '0 auto', maxWidth: '1000px', minHeight: '100vh'}}>{children}</main>  
             <Footer />
         </>
     )

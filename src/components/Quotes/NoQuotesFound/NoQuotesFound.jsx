@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 import styles from './NoQuotesFound.module.css';
 
 const NoQuotesFound = () => {
@@ -9,9 +12,12 @@ const NoQuotesFound = () => {
         </p>
 
         {/* Link */}
-        <a className={styles.link}>
-            Add a Quote
-        </a>
+        <Link
+          className={styles.link}
+          to='/new-quote'
+        >
+          Add a Quote
+        </Link>
     </div>
   );
 };

@@ -1,0 +1,7 @@
+.container {
+    font-size: 1.25rem;
+    margin: var(--spacing2) 0;
+    padding-bottom: var(--spacing);
+    border-bottom: 2px solid var(--teal);
+    color: var(--feldgrau);
+}

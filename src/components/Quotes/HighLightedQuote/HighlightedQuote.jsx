@@ -1,3 +1,5 @@
+import React from 'react';
+
 import styles from './HighlightedQuote.module.css';
 
 const HighlightedQuote = ({text, author}) => {

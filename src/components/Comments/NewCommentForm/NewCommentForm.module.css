@@ -1,6 +1,15 @@
-/* Form */
-.form {
+/* Container */
+.container {
     position: relative;
+    margin-top: var(--spacing2);
+}
+
+/* Control */
+.control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--spacing);
 }
 
 /* Loading */
@@ -14,40 +23,28 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* Control */
-.control {
-    margin-bottom: var(--spacing3);
-}
-
 /* Label */
 .label {
-    font-weight: bold;
     display: block;
+    font-weight: bold;
     margin-bottom: var(--spacing);
 }
 
-/* Input and TextArea */
-.input,
+/* Textarea */
 .textarea {
     display: block;
-    font-size: 1.25rem;
+    width: calc(100% / 2);
     font: inherit;
-    width: 100%;
+    font-size: 1.25rem;
     padding: 0.35rem;
+    border: 1px solid var(--jet-stream);
     border-radius: 4px;
-    border: 1px solid var(--jet-stram);
     background-color: var(--anti-flash-white);
 }
 
-.input:focus,
 .textarea:focus {
     background-color: var(--water);
     outline-color: var(--teal);
-}
-
-/* Button Container */
-.buttonContainer {
-    text-align: right;
 }
 
 /* Button */
